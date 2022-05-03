@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +24,95 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/* blackjack */
+.header {
+ word-spacing: 0.5em;
+}
+
+
+.player-container{
+  display: inline-block;
+  border-color: #b69c09;
+  border-style: solid;
+  
+  border-radius: 1em;
+  border-width: 0.2em;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  background-color: rgb(64, 150, 37);
+       
+
+
+
+  
+}
+
+.player-container h3{
+  color:black;
+  
+}
+
+.cards-container{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5em;
+  border-width: 0.1em;
+
+  margin:5px
+
+
+
+}
+
+.cards{
+  margin: 2px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5em;
+  border-width: 0.1em;
+
+  
+
+  width: 15%;
+   
+}
+
+.card-value-top-left-red{
+  margin-right: 60%;
+  color: red;
+}
+
+.card-value-bottom-right-red {
+  margin-left: 60%;
+  color: red;
+}
+
+.card-value-top-left-black {
+  margin-right: 60%;
+  color: black;
+}
+
+.card-value-bottom-right-black {
+  margin-left: 60%;
+  color: black;
+}
+
+
+.card-suit-center-red{
+  color: red
+}
+
+.card-suit-center-black {
+  color: black
 }
